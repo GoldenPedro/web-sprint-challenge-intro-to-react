@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React creates composable user interfaces with reusable components that react to data changes. Instead of working with templates or HTML directives, React components call a render method that produces a string of markup, then injects this directly into your document. This breaks up the UI into sub-components that makes it easier to work with as a developer, and also craetes a Virtual DOM that allows for better dynamic pages without constant reloading.
+
 1. Describe component state.
+
+  The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders. This can be used with the useState hook.
 
 1. Describe props.
 
+  “Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another. It can only pass data from a parent to a child component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+  Side effects are anything that affects something outside of the scope of the current function that’s being executed. We can sync effects in a React component to changes of certain state or props by using the useEffect React hook.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
