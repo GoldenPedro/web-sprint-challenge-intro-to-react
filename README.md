@@ -34,7 +34,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Describe component state.
 
-  The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders. This can be used with the useState hook.
+  The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders. This can be used with the useState hook and initialized as an array of "State" and "setState".
 
 1. Describe props.
 
